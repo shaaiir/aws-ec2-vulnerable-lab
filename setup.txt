@@ -1,0 +1,13 @@
+Launch an EC2 Instance
+Go to AWS Console → EC2 → Launch Instance.
+Choose AMI:
+Select Ubuntu 22.04 LTS (Free Tier eligible).
+Choose Instance Type:
+Select t2.micro (Free Tier).
+Key Pair:
+Create or use an existing key pair.
+Security Group (Make it vulnerable!):
+Allow SSH (22) from anywhere (0.0.0.0/0).
+Allow HTTP (80) from anywhere (0.0.0.0/0).
+Allow Custom TCP (8080, 3306) from anywhere (0.0.0.0/0).
+Launch Instance and wait for it to be ready
