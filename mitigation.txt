@@ -1,0 +1,13 @@
+#Restrict Security Groups:
+aws ec2 revoke-security-group-ingress --group-id <sg-id> --protocol tcp --port 3306 --cidr 0.0.0.0/0
+aws ec2 revoke-security-group-ingress --group-id <sg-id> --protocol tcp --port 22 --cidr 0.0.0.0/0
+
+#Restrict Security Groups:
+sudo nano /etc/ssh/sshd_config
+
+#Restrict remote access:
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+bind-address = 127.0.0.1
+
+#make it srong and secure code for php.info or Delete phpinfo.php:
+sudo rm /var/www/html/info.php
