@@ -1,5 +1,6 @@
 # aws-ec2-vulnerable-lab
 A security research lab for testing and learning AWS EC2 vulnerabilities and mitigations.
+![EC2 Instance](ec2-instance.png)
 
 
 This is a security research lab designed for testing vulnerabilities in AWS EC2 instances.
